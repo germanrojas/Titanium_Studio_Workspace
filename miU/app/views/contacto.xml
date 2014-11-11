@@ -1,0 +1,21 @@
+<Alloy>
+    <Window id="_W_contacto" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+        </View>
+        <ScrollView id= "_Scroll_contenido" layout="vertical">
+            <Label id="_L_title"/>
+            <View id="_V_pkr">
+                <Picker id="_Pkr_dependencias"/>
+            </View>
+            <Label id="_L_titleDepend"/>
+            <Label id="_L_infoDepend"/>
+            <View id="_V_send" layout="composite">
+                <ImageView id="_I_send"/>
+                <Label id="_L_send"/>
+            </View>
+            <Label id="_L_descriptionDepend"/>
+        </ScrollView>
+    </Window>
+</Alloy>

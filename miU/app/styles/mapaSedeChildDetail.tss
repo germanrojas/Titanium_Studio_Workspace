@@ -1,0 +1,92 @@
+"#_L_back": {
+	text: "    Lugares    "
+},
+"#_L_actual": {
+	text: "Info. Lugar"
+},
+"#_Scroll_map":{ 
+	scrollingEnabled: "true",
+	showVerticalScrollIndicator: "true"
+},
+"#_V_lugar":{
+	height: "300dp",
+	width: "90%",
+	top: "20dp",
+	left: "5%",
+	regionFit: true
+},
+"#_V_noMap":{
+	height: "300dp",
+	width: "90%",
+	top: "20dp",
+	left: "5%",
+	backgroundColor: "transparent"
+},
+"#place": {
+	pincolor: Titanium.Map.ANNOTATION_RED
+},
+"#myPlace": {
+	pincolor: Titanium.Map.ANNOTATION_RED
+},
+
+
+"#_V_contenido":{
+	height: "auto",
+	width: "90%",
+	top: "320dp",
+	left: "5%",
+	bottom: "20dp"
+},
+"#_V_ruta": {
+    width: '100%',
+    height: '7mm',
+    top: '2mm',
+    left: 0,
+    backgroundColor: '#2060BC',
+    borderWidth: "1dp",
+	borderColor:"#000",
+	borderRadius: "10dp"
+},
+"#_V_ruta[platform=android]":{
+	borderWidth: 1,
+	borderColor:"#000",
+	borderRadius: 10
+},
+"#_L_ruta": {
+    width: 'auto',
+    height: '7mm',
+    top: 'auto',
+    left: '5%',
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    text: '¿Cómo llegar?',
+	color: '#FFF',
+	font: {
+        fontSize: '21dp',
+        fontWeight: 'bold'
+    }
+},
+"#_I_ruta": {
+    width: '5mm',
+    height: '5mm',
+    top: '1mm',
+    right: '1mm',
+   	image: '/images/searchIcon.png'
+},
+
+"#_L_info": {
+	height: "auto",
+	width: "auto",
+	top: "10dp",
+	left: 0,
+	font: {
+		fontSize: '12dp',
+        fontStyle: 'italic'
+	}
+},
+"#_L_description": {
+	height: "auto",
+	width: "100%",
+	top: "10dp",
+	left: 0,
+	bottom: 0
+}

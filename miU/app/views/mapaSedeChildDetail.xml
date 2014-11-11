@@ -1,0 +1,26 @@
+<Alloy>
+    <Window id="_W_mapaSedeChildDetail" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+        </View>
+        <ScrollView id="_Scroll_map">
+            <View id= "_V_contenido" layout="vertical">
+                <View id="_V_ruta" layout="composite">
+                    <ImageView id="_I_ruta"/>
+                    <Label id="_L_ruta"/>
+                </View>
+                <Label id="_L_title"></Label>
+                <Label id="_L_info"></Label>
+                <Label id="_L_description"></Label>
+            </View>
+            <View id="_V_lugar" ns="Ti.Map" animate= "true" userLocation= "true" mapType= "Ti.Map.STANDARD_TYPE" >
+                <Annotation id="place"/>
+                <Annotation id="myPlace"/>
+                <!-- Place other child views here, such as an ImageView to add an overlay. -->
+            </View>
+            <!-- Vista necesaria para usar scroll con el mapa. -->
+            <View id="_V_noMap"></View>
+        </ScrollView>   
+    </Window>
+</Alloy>

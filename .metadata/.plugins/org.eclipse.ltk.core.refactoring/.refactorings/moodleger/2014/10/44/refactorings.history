@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move 1 resources to &apos;rollups&apos;" description="Move 1 resources to &apos;rollups&apos;" destination="app/lib/CryptoJSv3.1.2/rollups" element1="app/lib/tripledes.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1414689289508" updateReferences="true"/>&#x0A;<refactoring comment="Move 1 resources to &apos;lib&apos;" description="Move 1 resources to &apos;lib&apos;" destination="app/lib" element1="app/lib/CryptoJSv3.1.2/rollups/tripledes.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1414702315476" updateReferences="true"/>
+</session>

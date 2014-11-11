@@ -1,0 +1,34 @@
+"#_L_back": {
+	text: "    Principal    "
+},
+"#_L_actual": {
+	text: "Alertas"
+},
+"#_L_alterno": {
+	text: "    Opciones    "
+},
+"#_V_contenido":{
+	height: "auto",
+	width: "100%",
+	top: "5dp",
+	left: 0
+},
+"#_Tbl_notificaciones": {
+    height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	backgroundColor: "transparent",
+    top: 0
+},
+"#_L_title": {
+    height: "auto",
+	width: "100%",
+	top: "5dp",
+	left: 0,
+	font: {
+        fontSize: '15dp'
+    },
+    text: "Notificaciones",
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}

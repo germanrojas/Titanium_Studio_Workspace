@@ -1,0 +1,13 @@
+<Alloy>
+    <Window id="_W_notificacionesOnOff" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+        </View>
+        <View id="_V_contenido" layout="composite">
+            <Label id="_L_info"></Label>
+            <Switch id="_Switch_"/>
+        </View>
+        <Label id="_L_coment"></Label>
+    </Window>
+</Alloy>

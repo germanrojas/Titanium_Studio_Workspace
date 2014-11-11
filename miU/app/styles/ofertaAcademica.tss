@@ -1,0 +1,70 @@
+"#_L_back": {
+	text: "    Principal    "
+},
+"#_L_actual": {
+	text: "Facultades"
+},
+"#_L_alterno": {
+	text: "    Programas    "
+},
+"#_V_ofertaAcademica": {
+	height: "auto",
+	width: "100%",
+	top: "50dp",
+	left: 0,
+	visible: false
+},
+
+"#_Tbl_ofertaAcademica": {
+	height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	backgroundColor: "transparent",
+    top: 0
+},
+"#_Tbl_ofertaAcademica[platform=ios]": {
+	filterAttribute: "myFilter" //Se busca por lo que contiene el Label ofertaAcademica en cada fila, sólo si es iOS, si 
+								//es android la búsqueda queda por defecto, ver en el child.js para entender por qué
+},
+"#_L_ofertaAcademica":{
+	height: "auto",
+	width: "100%",
+	left: 0,
+	color: "#000000",
+	font: {
+        fontSize: '15dp'
+    },
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    text: "Todos los programas"
+},
+
+"#_L_facultades":{
+	height: "auto",
+	width: "100%",
+	left: 0,
+	color: "#000000",
+	font: {
+        fontSize: '15dp'
+    },
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    text: "FACULTADES"
+},
+"#_V_facultades": {
+	height: "auto",
+	width: "100%",
+	top: "50dp",
+	left: 0
+},
+"#_Tbl_facultades": {
+	height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	backgroundColor: "transparent",
+    top: 0
+},
+"#_Tbl_facultades[platform=ios]": {
+	filterAttribute: "myFilter" //Se busca por lo que contiene el Label ofertaAcademica en cada fila, sólo si es iOS, si 
+								//es android la búsqueda queda por defecto, ver en el child.js para entender por qué
+}

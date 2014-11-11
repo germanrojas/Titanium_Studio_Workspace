@@ -1,0 +1,12 @@
+=run
+LAST_LAUNCH_TIMESTAMP=1415666983059
+autoLaunchShortcut=true
+eclipse.preferences.version=1
+miU\:launchMode=run
+miU\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.device.launchShortcut.08f7b89c
+moodleger\:launchMode=run
+moodleger\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.32D47B33-62E9-45B8-B856-9887C6C5ED94
+preference.show.console.onError=true
+preference.studio.perspective.version=103
+social_logins_testing\:launchMode=run
+social_logins_testing\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.32D47B33-62E9-45B8-B856-9887C6C5ED94

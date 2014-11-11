@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+provisioning_profiles/development/1DCB229F-32CB-4E68-849D-57EE2C14FE71/appid=*
+provisioning_profiles/development/1DCB229F-32CB-4E68-849D-57EE2C14FE71/name=MiUniversidad
+provisioning_profiles/development/1DCB229F-32CB-4E68-849D-57EE2C14FE71/uuid=1DCB229F-32CB-4E68-849D-57EE2C14FE71
+provisioning_profiles/development/CE199602-2E23-4211-BAF5-B0024A1D2116/appid=net.nivel7.miU
+provisioning_profiles/development/CE199602-2E23-4211-BAF5-B0024A1D2116/name=miUIGV_test
+provisioning_profiles/development/CE199602-2E23-4211-BAF5-B0024A1D2116/uuid=CE199602-2E23-4211-BAF5-B0024A1D2116
+provisioning_profiles/development/FE8F3B49-7119-496A-AFBD-FF86246880D9/appid=*
+provisioning_profiles/development/FE8F3B49-7119-496A-AFBD-FF86246880D9/name=iOS Team Provisioning Profile\: *
+provisioning_profiles/development/FE8F3B49-7119-496A-AFBD-FF86246880D9/uuid=FE8F3B49-7119-496A-AFBD-FF86246880D9

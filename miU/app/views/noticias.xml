@@ -1,0 +1,27 @@
+<Alloy>
+    <Window id="_W_noticias">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+            <Label id="_L_alterno"/>
+        </View>
+        <View id= "_V_noticias">
+            <TableView id="_Tbl_noticias">
+                <TableViewRow id= "_Row_noticias">
+                    <Label id="_L_noticias"/>
+                </TableViewRow>
+                <SearchBar/>
+            </TableView>
+        </View>
+        <View id= "_V_categorias">
+            <TableView id="_Tbl_categorias">
+                <TableViewRow id= "_Row_categorias">
+                    <Label id="_L_categorias"/>
+                </TableViewRow>
+                <SearchBar/>
+            </TableView>
+        </View>
+    </Window>
+</Alloy>
+
+

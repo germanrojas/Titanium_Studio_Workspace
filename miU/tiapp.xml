@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">FWylomUFr6DNf2FVkCb7egGdHuivNves</property>
+    <property name="acs-oauth-key-production" type="string">6iXLsLYfMFvINWkyMBPgZikSqxJ2rzPZ</property>
+    <property name="acs-api-key-production" type="string">oCQgJU1SSsq3JWETUea4PYj4YpUGuE6o</property>
+    <property name="acs-oauth-secret-development" type="string">Q54Tqutdo18lh6UNSrpBT8lru0kCKYAx</property>
+    <property name="acs-oauth-key-development" type="string">AB9HUSzChOMMm4jvCNtTEtlT1woGrVkF</property>
+    <property name="acs-api-key-development" type="string">1PjcFhMli2PrsAxSp9Rbl2IpHrdF7pJo</property>
+    <!-- Property to configure push notifications -->
+    <!-- By default, GCM is used if this property is not specified -->
+    <property name="acs-push-type-development" type="string">gcm</property>
+    <property name="acs-push-type-production" type="string">gcm</property>
+    <property name="acs-push-type" type="string">gcm</property>
+    <id>net.nivel7.miU</id>
+    <name>miUIGV</name>
+    <version>1.1</version>
+    <publisher>Rojas</publisher>
+    <url>http://nivel7.net</url>
+    <description>not specified</description>
+    <copyright>2013 by Rojas</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>da9a5906-c7aa-469d-8503-47f9f3d93fc9</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <!-- Permisos para acceder a lectura y escritura de android -->
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <service android:name="com.appcelerator.cloud.push.PushService"/>
+        <manifest>
+            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+            <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <uses-permission android:name="android.permission.VIBRATE"/>
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+            <uses-permission android:name="android.permission.READ_CALENDAR"/>
+            <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+        </manifest>
+    </android>
+    <!-- Permisos para acceder a lectura y escritura de android -->
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <property name="GCM_sender_id" type="string">306468313950</property>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">ti.cloudpush</module>
+        <module platform="android">ti.map</module>
+        <!-- Start Módulo para push en android usando GCM
+        <module platform="android" version="0.2">net.iamyellow.gcmjs</module>
+         End Módulo para push en android usando GCM -->
+    </modules>
+    <deployment-targets>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">true</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.4.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>

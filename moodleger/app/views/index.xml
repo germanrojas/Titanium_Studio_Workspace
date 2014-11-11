@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<View id="login_box" layout="vertical">
+			<Label>Username</Label>
+			<TextField id="input_username"/>
+			<Label>Password</Label>
+			<TextField id="input_password"/>
+			<Button id="submit_login" onClick="user_login">Verificar</Button>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,24 @@
+<Alloy>
+    <Window id="_W_eventos">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+            <Label id="_L_alterno"/>
+        </View>
+        <View id= "_V_eventos" layout="vertical">
+            <TableView id="_Tbl_eventos">
+                <TableViewRow id= "_Row_eventos">
+                    <Label id="_L_eventos"/>
+                </TableViewRow>
+                <SearchBar/>
+            </TableView>
+        </View>
+        <View id= "_V_categorias" layout="vertical">
+            <TableView id="_Tbl_categorias">
+                <TableViewRow id= "_Row_categorias">
+                    <Label id="_L_categorias"/>
+                </TableViewRow>
+            </TableView>
+        </View>
+    </Window>
+</Alloy>

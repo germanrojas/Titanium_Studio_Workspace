@@ -1,0 +1,25 @@
+<Alloy>
+    <Window id="_W_ofertaAcademica">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+            <Label id="_L_alterno"/>
+        </View>
+        <View id= "_V_facultades">
+            <TableView id="_Tbl_facultades">
+                <TableViewRow>
+                    <Label id="_L_facultades"/>
+                </TableViewRow>
+                <SearchBar/>
+            </TableView>
+        </View>
+        <View id= "_V_ofertaAcademica">
+            <TableView id="_Tbl_ofertaAcademica">
+                <TableViewRow>
+                    <Label id="_L_ofertaAcademica"/>
+                </TableViewRow>
+                <SearchBar/>
+            </TableView>
+        </View>
+    </Window>
+</Alloy>

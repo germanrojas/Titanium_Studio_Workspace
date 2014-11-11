@@ -1,0 +1,96 @@
+"#_L_back": {
+	text: "    Principal    "
+},
+"#_L_actual":{
+	text: "Contáctenos"
+},
+"#_Scroll_contenido": {
+	height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	showVerticalScrollIndicator: true,
+	scrollType: "vertical"
+},
+"#_L_title":{
+	width: "90%",
+	left: "5%",
+	top: "10dp",
+	text: "Universidad Inca Garcilaso de la Vega"	
+},
+
+"#_V_pkr":{
+	width: "90%",
+	height: Titanium.UI.SIZE,
+	left: "5%",
+	top: "10dp"
+	
+},
+"#_Pkr_dependencias":{
+	selectionIndicator: true,
+	useSpinner: false
+},
+
+"#_L_titleDepend": {
+	width: "90%",
+	height: "auto",
+	left: "5%",
+	top: "20dp",
+	color: "#000000",
+	font: {
+        fontSize: '21dp',
+        fontWeight: 'bold'
+    }
+},
+"#_L_infoDepend": {
+	width: "90%",
+	height: "auto",
+	top: "5dp",
+	left: "5%",
+	font: {
+		fontSize: '12dp',
+        fontStyle: 'italic'
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+"#_V_send":{
+	width: '90%',
+    height: '7mm',
+    top: '10dp',
+    left: "5%",
+    backgroundColor: '#2060BC',
+    borderWidth: "1dp",
+	borderColor:"#000",
+	borderRadius: "10dp"
+},
+"#_V_send[platform=android]":{
+	borderWidth: 1,
+	borderColor:"#000",
+	borderRadius: 10
+},
+"#_L_send": {
+    width: 'auto',
+    height: '7mm',
+    top: 'auto',
+    left: '5%',
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    text: 'Enviar correo',
+	color: '#FFF',
+	font: {
+        fontSize: '21dp',
+        fontWeight: 'bold'
+    }
+},
+"#_I_send": {
+    width: '5mm',
+    height: '5mm',
+    top: '1mm',
+    right: '1mm',
+   	image: '/images/emailIcon.jpg'
+},
+
+"#_L_descriptionDepend":{
+	width: "90%",
+	left: "5%",
+	top: "5dp"
+}

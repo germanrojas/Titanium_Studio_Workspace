@@ -1,0 +1,17 @@
+<Alloy>
+    <Window id="_W_notificaciones" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+            <Label id="_L_alterno"/>
+        </View>
+        <View id= "_V_contenido" layout = "vertical">
+            <TableView id="_Tbl_notificaciones">
+       			<SearchBar/>
+       			<TableViewRow>
+            		<Label id="_L_title"/>
+            	</TableViewRow>
+            </TableView>
+		</View>
+    </Window>
+</Alloy>

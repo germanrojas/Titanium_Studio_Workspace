@@ -1,0 +1,68 @@
+"#_L_back": {
+	text: "    Principal    "
+},
+"#_L_actual": {
+	text: "Noticias"
+},
+"#_L_alterno": {
+	text: "    Categorías    "
+},
+"#_V_categorias": {
+	height: "auto",
+	width: "100%",
+	top: "50dp",
+	left: 0,
+	visible: false
+},
+"#_Tbl_categorias": {
+	height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	backgroundColor: "transparent",
+    top: 0
+},
+"#_Tbl_categorias[platform=ios]": {
+	filterAttribute: "myFilter" //Se busca por lo que contiene el Label noticias en cada fila, sólo si es iOS, si 
+								//es android la búsqueda queda por defecto, ver en el child.js para entender por qué
+},
+"#_V_noticias": {
+	height: "auto",
+	width: "100%",
+	top: "50dp",
+	left: 0
+},
+"#_Tbl_noticias": {
+	height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	backgroundColor: "transparent",
+    top: 0
+},
+"#_Tbl_noticias[platform=ios]": {
+	filterAttribute: "myFilter" //Se busca por lo que contiene el Label noticias en cada fila, sólo si es iOS, si 
+								//es android la búsqueda queda por defecto, ver en el child.js para entender por qué
+},
+"#_L_noticias":{
+	height: "auto",
+	width: "100%",
+	left: 0,
+	color: "#000000",
+	font: {
+        fontSize: '15dp'
+    },
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    text: "NOTICIAS"
+},
+"#_L_categorias":{
+	height: "auto",
+	width: "100%",
+	left: 0,
+	color: "#000000",
+	font: {
+        fontSize: '15dp'
+    },
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    text: "CATEGORÍAS"
+}

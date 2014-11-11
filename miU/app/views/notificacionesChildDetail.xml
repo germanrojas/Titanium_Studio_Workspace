@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="_W_notificacionesChildDetail" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+        </View>
+        <View id="_V_contenido">
+            <ScrollView layout="vertical">
+                <Label id="_L_title"></Label>
+                <Label id="_L_description"></Label>
+            </ScrollView>
+        </View>
+    </Window>
+</Alloy>

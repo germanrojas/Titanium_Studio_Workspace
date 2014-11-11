@@ -1,0 +1,35 @@
+"#_L_back": {
+	text: "    Principal    "
+},
+"#_L_actual": {
+	text: "Lugares"
+},
+"#_V_contenido":{
+	height: "auto",
+	width: "100%",
+	top: "5dp",
+	left: 0
+},
+"#_L_title": {
+	height: "auto",
+	width: "100%",
+	top: "5dp",
+	left: 0,
+	font: {
+        fontSize: '15dp'
+    },
+    text: "BUSCADOR DE LUGARES",
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+"#_Tbl_mapaSede": {
+	height: "auto",
+	width: "100%",
+	top: 0,
+	left: 0,
+	backgroundColor: "transparent",
+    top: 0
+},
+"#_Tbl_mapaSede[platform=ios]": {
+	filterAttribute: "myFilter" //Se busca por lo que contiene el Label lugar en cada fila, sólo si es iOS, si 
+								//es android la búsqueda queda por defecto, ver en el child.js para entender por qué
+}

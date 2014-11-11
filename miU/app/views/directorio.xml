@@ -1,0 +1,16 @@
+<Alloy>
+    <Window id="_W_directorio" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+        </View>
+        <View id= "_V_contenido" layout = "vertical">
+            <TableView id="_Tbl_directorio" layout="vertical">
+                <TableViewRow>
+                    <Label id="_L_title"></Label>
+                </TableViewRow>
+                <SearchBar id="_Bar_search"/>
+            </TableView>
+        </View>
+    </Window>
+</Alloy>

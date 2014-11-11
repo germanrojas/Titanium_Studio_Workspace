@@ -1,0 +1,15 @@
+<Alloy>
+    <Window id="_W_otro" layout="vertical">
+        <View id="_V_back">
+            <Label id="_L_actual"/>
+            <Label id="_L_back"/>
+        </View>
+        <View id= "_V_contenido" layout = "vertical">
+            <TableView id="_Tbl_otro">
+       			<TableViewRow>
+            		<Label id="_L_title"/>
+            	</TableViewRow>
+            </TableView>
+		</View>
+    </Window>
+</Alloy>

@@ -1,0 +1,36 @@
+"#_V_contenido":{
+	height: "auto",
+	width: "90%",
+	top: "10dp",
+	left: "5%",
+	backgroundColor: "transparent"
+},
+"#_L_back": {
+	text: "    Eventos    "
+},
+"#_L_actual": {
+	text: "Info. Evento"
+},
+
+"#_L_info": {
+	height: "auto",
+	width: "auto",
+	top: "5dp",
+	left: 0,
+	font: {
+		fontSize: '12dp',
+        fontStyle: 'italic'
+	}
+},
+"#_I_evento":{
+	height: "auto",
+	width: "100%",
+	top: "10dp",
+	left: 0 
+},
+"#_L_description": {
+	height: "auto",
+	width: "100%",
+	top: "10dp",
+	left: 0
+}

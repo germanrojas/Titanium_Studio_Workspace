@@ -1,0 +1,185 @@
+// Global Style
+"Window":{
+	backgroundColor: '#F0F0EE',
+	fullscreen: false
+},
+"Label":{
+	color: '#323237',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    backgroundColor: 'transparent',
+    font: {
+        fontFamily:'Helvetica',
+        fontSize: '16dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+},
+"Button": {
+	font: {
+		fontFamily:'Helvetica'
+	}
+},
+"ImageView[platform=ios]": {
+	borderRadius: "10dp"
+},
+"ImageView[platform=android]": {
+	borderRadius: 10
+},
+//Vista que contiene el label e ícono para ir atrás
+"#_V_back":{
+	width: "100%",
+	height: "40dp",
+	top:"0%",
+	left: 0,
+	layout: "composite"
+},
+"#_V_back[platform=ios]": {
+	backgroundGradient: {
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		//Aparece un error que no debería aparecer, de todas formas funciona
+		colors: [
+			{ color: "#164A94", offset: 1.0 },
+			{ color: "#2060BC", offset: 0.0 }
+		]
+	}
+},
+"#_V_back[platform=android]": {
+	backgroundImage: "/images/degrade.png"
+},
+//Label que contiene la etiqueta de la ventana a la que volvería
+"#_L_back": {
+	height: "80%",
+	width: "auto",
+	left: "10dp",
+	color: "#FFFFFF",
+	borderWidth: "1dp",
+	borderColor:"#000",
+	borderRadius: "10dp",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	color: '#FFF',
+	font: {
+        fontSize: '12dp',
+        fontWeight: 'bold'
+    }
+},
+"#_L_back[platform=ios]": {
+	backgroundGradient: {
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		//Aparece un error que no debería aparecer, de todas formas funciona
+		colors: [
+			{ color: "#164A94", offset: 1.0 },
+			{ color: "#2060BC", offset: 0.0 }
+		]
+	}
+},
+"#_L_back[platform=android]":{
+	borderWidth: 3,
+	borderColor:"#000",
+	borderRadius: 10,
+	backgroundImage: "/images/degrade.png"
+},
+"#_L_actual": {
+	height: "100%",
+	width: "100%",
+	left: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#FFFFFF",
+	font: {
+        fontSize: '16dp',
+        fontWeight: 'bold'
+    }
+},
+"#_L_alterno":{
+	height: "80%",
+	width: "auto",
+	right: "10dp",
+	borderWidth: "1dp",
+	borderColor:"#000",
+	borderRadius: "10dp",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	color: '#FFF',
+	font: {
+        fontSize: '12dp',
+        fontWeight: 'bold'
+    }
+}, 
+"#_L_alterno[platform=ios]": {
+	backgroundGradient: {
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		//Aparece un error que no debería aparecer, de todas formas funciona
+		colors: [
+			{ color: "#164A94", offset: 1.0 },
+			{ color: "#2060BC", offset: 0.0 }
+		]
+	}
+},
+"#_L_alterno[platform=android]":{
+	borderWidth: 3,
+	borderColor:"#000",
+	borderRadius: 10,
+	backgroundImage: "/images/degrade.png"
+},
+//Fila de todas las tablas
+"#row": {
+    backgroundColor:'transparent',
+    height: '14mm',
+    color: 'transparent',
+    font: {
+    		fontSize: '24dp',
+    		fontFamily:'Helvetica'
+	}
+},
+"#row[platform=ios]":{
+	hasChild: true
+},
+//Titulo de las filas en las tablas (pertenece a row)
+"#_L_rowTitle": {
+	height: "8mm",
+	width: "auto",
+	top: "1mm",
+	left: "14mm",
+	color: "#000000",
+	font: {
+        fontSize: '16dp',
+        fontWeight: 'bold'
+    }
+},
+//Label complementario de cada fila, si se tiene
+"#_L_complemento": {
+	height: "auto",
+	width: "auto",
+	bottom: "1mm",
+	left: "14mm",
+	font: {
+        fontSize: '12dp',
+        fontStyle: 'italic'
+    }
+},
+
+//Label de títulos que están en todos los details
+"#_L_title": {
+	height: "auto",
+	width: "auto",
+	top: 0,
+	left: 0,
+	color: "#000000",
+	font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+},
+//Barra de búsqueda de todas las tablas, si la tienen
+"SearchBar": {
+	width: "auto",
+	barColor: "#000",
+	showCancel: "true",
+	hintText: "Buscar",
+	barColor: "#164A94"
+},
+"SearchBar[formFactor=handheld]": {
+	height: "7mm"
+}
+

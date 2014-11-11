@@ -1,0 +1,14 @@
+"#_L_back": {
+	text: "    Alertas    "
+},
+"#_L_actual": {
+	text: "Info. Alerta"
+},
+"#_V_contenido":{
+	height: "auto",
+	width: "90%",
+	top: "20dp",
+	left: "5%",
+	backgroundColor: "transparent",
+	bottom: "20dp"
+}

@@ -1,0 +1,6 @@
+<Alloy>
+    <TableViewRow id="row">
+        <ImageView id="_I_otro"></ImageView>
+        <Label id="_L_rowTitle"/>
+    </TableViewRow>
+</Alloy>

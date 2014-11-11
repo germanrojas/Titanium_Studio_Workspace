@@ -1,0 +1,48 @@
+<Alloy>
+	<Window id="_W_miU" layout="vertical">
+		<View id="_V_icono">
+		    <ImageView id="_I_miU"/>
+		</View>
+		<View id='_V_margen'/>
+		<View id="_V_secciones" layout="horizontal">
+    		<View id="_V_primeraColumna" layout="vertical" class="T_V_columna">
+            	<View id="_V_noticias" layout="vertical" class="T_V_seccion">
+            		<ImageView id="_I_noticias"/>
+            		<Label id="_L_noticias"></Label>
+            	</View>
+            	<View id="_V_eventos" layout="vertical" class="T_V_seccion">
+            		<ImageView id="_I_eventos"/>
+            		<Label id="_L_eventos"></Label>
+            	</View>	
+        		<View id="_V_notificaciones" layout="vertical" class="T_V_seccion">
+                    <ImageView id="_I_notificaciones"/>
+                    <Label id="_L_notificaciones"></Label>
+                </View>
+    		</View>
+    		<View id="_V_segundaColumna" layout="vertical" class="T_V_columna">
+        		<View id="_V_contacto" layout="vertical" class="T_V_seccion">
+                    <ImageView id="_I_contacto"/>
+                    <Label id="_L_contacto"></Label>
+                </View>
+            	<View id="_V_directorio" layout="vertical" class="T_V_seccion">
+            		<ImageView id="_I_directorio"/>
+            		<Label id="_L_directorio"></Label>
+            	</View>
+            	<View id="_V_otros" layout="vertical" class="T_V_seccion">
+                    <ImageView id="_I_otros"/>
+                    <Label id="_L_otros"></Label>
+                </View>
+            </View>
+            <View id="_V_terceraColumna" layout="vertical" class="T_V_columna">
+        		<View id="_V_ofertaAcademica" layout="vertical" class="T_V_seccion">
+                    <ImageView id="_I_ofertaAcademica"/>
+                    <Label id="_L_ofertaAcademica"></Label>
+                </View>
+        		<View id="_V_mapaSede" layout="vertical" class="T_V_seccion">
+                    <ImageView id="_I_mapaSede"/>
+                    <Label id="_L_mapaSede"></Label>
+                </View>
+            </View>
+        </View>        
+	</Window>
+</Alloy>

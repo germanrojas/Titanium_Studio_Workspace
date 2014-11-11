@@ -1,0 +1,113 @@
+"#_W_miU": {
+	orientationModes: [Titanium.UI.PORTRAIT]
+},
+"#_V_icono": {
+	width: "100%",
+	height: Titanium.UI.SIZE,
+	top: 0,
+	left: 0,
+	backgroundColor: '#FFF'
+},
+"#_V_margen": {
+	width: "100%",
+	height: "5dp",
+	top: 0,
+	left: 0,
+	backgroundColor: '#FFF'
+},
+
+"#_V_secciones":{
+	width: "100%",
+	height: "80%",
+	top: "5%",
+	left: 0
+},
+".T_V_columna": {
+	width: "33%",
+	height: "100%",
+	top: 0,
+	left: 0
+},
+".T_V_seccion": {
+	width: "90%",
+	height: Titanium.UI.SIZE,
+	top: "2%",
+	left: "5%"
+},
+"ImageView": {
+	width: '60%',
+	top: '10%',
+	left: '20%'
+},
+
+"Label": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	top: 0
+},
+/*"#_I_miU[platform=android]":{
+	//image:"/images/logo_uigv.png"
+	image:"/images/index_icons/logo.png"
+},
+"#_I_miU[platform=ios]":{
+	//image:"/images/logo_uigvIOs.png"
+	image:"/images/index_icons/logo.png"
+},*/
+
+"#_I_miU":{
+	left: '5dp',
+	top: '5dp',
+	width: "50%",
+	height: 'auto',
+	image:"/images/index_icons/logo.png"
+},
+"#_I_noticias": {
+	image:"/images/index_icons/noticias_icon.png"
+},
+"#_I_eventos": {
+	image:"/images/index_icons/eventos_icon.png"
+},
+"#_I_mapaSede": {
+	image:"/images/index_icons/mapas_icon.png"
+},
+"#_I_directorio": {
+	image:"/images/index_icons/directorio_icon.png"
+},
+"#_I_ofertaAcademica": {
+	image:"/images/index_icons/programas_icon.png"
+},
+"#_I_contacto": {
+	image:"/images/index_icons/contacto_icon.png"
+},
+"#_I_otros": {
+	image:"/images/index_icons/otros_icon.png"
+},
+"#_I_notificaciones": {
+	image:"/images/index_icons/alertas_icon.png"
+},
+
+
+"#_L_noticias": {
+	text: 'Noticias'
+},
+"#_L_eventos": {
+	text: 'Eventos'
+},
+"#_L_mapaSede": {
+	text: 'Mapa'
+},
+"#_L_directorio": {
+	text: 'Directorio'
+},
+"#_L_ofertaAcademica": {
+	text: 'Programas'
+},
+"#_L_contacto": {
+	text: 'Contáctenos'
+},
+"#_L_otros": {
+	text: 'Otros'
+},
+"#_L_notificaciones": {
+	text: 'Alertas'
+},
+

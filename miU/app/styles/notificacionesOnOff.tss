@@ -1,0 +1,53 @@
+"#_L_back": {
+	text: "    Alertas    "
+},
+"#_L_actual": {
+	text: "Config. Alerta"
+},
+"#_V_contenido":{
+	height: Titanium.UI.SIZE,
+	width: "90%",
+	top: "20dp",
+	left: "5%",
+	backgroundColor: "transparent",
+	bottom: "20dp"
+},
+
+"#_V_contenido[platform=ios]": {
+	borderWidth: "1dp",
+	borderColor:"#999",
+	borderRadius: "10dp"
+},
+"#_V_contenido[platform=android]":{
+	borderWidth: 3,
+	borderColor:"#999",
+	borderRadius: 10
+},
+"#_L_info":{
+	height: "36dp",
+	left: "10dp",
+	top: "auto",
+	text: "Centro de notifiaciones",
+	font: {
+        fontFamily:'Helvetica',
+        fontSize: '16dp'
+	}
+},
+"#_Switch_":{
+	height: "auto",
+	width: "auto",
+	top: "auto",
+	right: "10dp",
+	value: "true"
+},
+
+"#_Switch_[platform=android]":{
+	style: Titanium.UI.Android.SWITCH_STYLE_CHECKBOX
+},
+"#_L_coment":{
+	text: "Notificaciones activadas",
+	font: {
+        fontFamily:'Helvetica',
+        fontSize: '16dp'
+	}
+}
